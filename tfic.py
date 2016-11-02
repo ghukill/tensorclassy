@@ -198,7 +198,7 @@ def run_inference_on_image(image):
 			print('%s (score = %.5f)' % (human_string, score))
 
 			# machine readable
-			scores.append((human_string,score))
+			scores.append((human_string, str(score)))
 
 		return scores
 
